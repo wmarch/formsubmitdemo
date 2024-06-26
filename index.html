@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DDI Systems</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <img src="images/ddisystemsLogo.png" alt="ddisystems logo">
+          <!-- Hamburger menu icon -->
+          <div class="nav-toggle" role="button" aria-label="Toggle Navigation">
+            <div class="burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <!-- Navigation links -->
+          <nav class="nav" role="navigation" aria-label="Main Navigation">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="hero" class="section" style="background-color: #333;">
+        <div class="container">
+          <div class="hero-content">
+             <h3 class="slogan">Unlocking Potential, Delivering Solutions</h3>
+            <p>Welcome to DDI Systems, where we provide innovative solutions to meet your needs.</p>
+          </div>
+        </div>
+      </section>
+
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a technology solutions company dedicated to providing a wide range of services, including website development, networking solutions, surveillance systems, graphic design, aerial photography, and more. Our mission is to empower small businesses with innovative technology solutions that help them thrive in today's digital landscape. As a small business ourselves, we understand the unique challenges and opportunities that small businesses face, and we are committed to delivering tailored solutions that meet their specific needs.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3><a href="WebDesign.html">Web Design</a></h3>
+          <p>We specialize in creating stunning and user-friendly websites tailored to your business needs. Whether you need a simple brochure site or a complex e-commerce platform, we've got you covered.</p>
+        </div>
+        <div class="service">
+          <h3><a href="GraphicDesign.html">Graphic Design</a></h3>
+          <p>Our networking solutions ensure seamless connectivity and optimal performance for your business operations. From setting up secure networks to troubleshooting issues, we provide comprehensive networking services.</p>
+        </div>
+        <div class="service">
+          <h3><a href="NetworkSolutions.html">Network Solutions</a></h3>
+          <p>Keep your premises secure with our state-of-the-art surveillance systems. We offer customized solutions for businesses of all sizes, ranging from CCTV installations to advanced video analytics.</p>
+        </div>
+        <div class="service">
+          <h3><a href="TechnicalSupport.html">Technical Support</a></h3>
+          <p>Elevate your brand identity with our creative graphic design services. From logos and branding materials to marketing collateral and digital assets, we help you make a lasting impression.</p>
+        </div>
+        <div class="service">
+          <h3><a href="Surveillance.html">Surveillance</a></h3>
+          <p>Capture breathtaking aerial views of your projects with our professional aerial photography services. Whether it's for real estate, construction, or marketing purposes, we deliver stunning aerial imagery.</p>
+        </div>
+        <div class="service">
+          <h3><a href="SocialMedia.html">Social Media</a></h3>
+          <p>Capture breathtaking aerial views of your projects with our professional aerial photography services. Whether it's for real estate, construction, or marketing purposes, we deliver stunning aerial imagery.</p>
+        </div>
+        <div class="service">
+          <h3><a href="AerialPhotography.html">Aerial Photography</a></h3>
+          <p>Capture breathtaking aerial views of your projects with our professional aerial photography services. Whether it's for real estate, construction, or marketing purposes, we deliver stunning aerial imagery.</p>
+        </div>
+        <div class="service">
+          <h3><a href="ArtPhotography.html">Art & Photography</a></h3>
+          <p>Capture breathtaking aerial views of your projects with our professional aerial photography services. Whether it's for real estate, construction, or marketing purposes, we deliver stunning aerial imagery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to get started? Fill out the form below and we'll get back to you as soon as possible.</p>
+      <form method="post" action="contact.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="service">Service:</label>
+        <select id="service" name="service" required>
+          <option value="" disabled selected>Select a service</option>
+          <option value="Web Design">Web Design</option>
+          <option value="Networking Solutions">Graphic Design</option>
+          <option value="Surveillance Systems">Network Solutions</option>
+          <option value="Graphic Design">Technical Support</option>
+          <option value="Aerial Photography">Surveillance</option>
+          <option value="Aerial Photography">Social Media</option>
+          <option value="Aerial Photography">Aerial Photography</option>
+          <option value="Aerial Photography">Art & Photography</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" name="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Connect with us on social media for the latest updates and news.</p>
+      <!-- Add social media icons here -->
+    </div>
+  </footer>
+</body>
+</html>
